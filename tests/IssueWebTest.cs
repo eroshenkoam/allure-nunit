@@ -16,6 +16,7 @@ namespace allure_nunit.tests
         
         [Test]
         [AllureTag("web", "critical")]
+        [AllureLabel("ALLURE_ID", "112")]
         [AllureLabel("jira", "AE-2")]
         [AllureStory("Create new issue")]
         [AllureLabel("microservice", "Billing")]
